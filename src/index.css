@@ -9,3 +9,11 @@ body {
 	max-width: calc(1200px);
 	margin: 0 auto;
 }
+.languages {
+	display: flex;
+	list-style: none;
+	& li {
+		padding: 10px;
+		display: inline-block;
+	}
+}

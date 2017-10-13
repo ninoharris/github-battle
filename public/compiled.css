@@ -1,0 +1,23 @@
+body {
+	background:	rgb(245, 222, 179);
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 24px;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.languages {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none
+}
+.languages li {
+	padding: 10px;
+	display: inline-block;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQywrQkFBNkI7Q0FDN0IscUhBQXFIO0NBQ3JILGtCQUFrQjtDQUNsQixvQkFBb0I7Q0FDcEIsZ0JBQWdCO0NBQ2hCO0FBQ0Q7Q0FDQyxrQkFBd0I7Q0FDeEIsZUFBZTtDQUNmO0FBQ0Q7Q0FDQyxxQkFBYztDQUFkLHFCQUFjO0NBQWQsY0FBYztDQUNkLGdCQUFpQjtDQUtqQjtBQUpBO0NBQ0MsY0FBYztDQUNkLHNCQUFzQjtDQUN0QiIsImZpbGUiOiJjb21waWxlZC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcblx0YmFja2dyb3VuZDpcdHJnYigyNDUsMjIyLDE3OSk7XG5cdGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCxTZWdvZSBVSSxSb2JvdG8sT3h5Z2VuLVNhbnMsVWJ1bnR1LENhbnRhcmVsbCxIZWx2ZXRpY2EgTmV1ZSxzYW5zLXNlcmlmO1xuXHRmb250LXdlaWdodDogYm9sZDtcblx0bGV0dGVyLXNwYWNpbmc6IDFweDtcblx0Zm9udC1zaXplOiAyNHB4O1xufVxuLmNvbnRhaW5lciB7XG5cdG1heC13aWR0aDogY2FsYygxMjAwcHgpO1xuXHRtYXJnaW46IDAgYXV0bztcbn1cbi5sYW5ndWFnZXMge1xuXHRkaXNwbGF5OiBmbGV4O1xuXHRsaXN0LXN0eWxlOiBub25lO1xuXHQmIGxpIHtcblx0XHRwYWRkaW5nOiAxMHB4O1xuXHRcdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0fVxufVxuIl19 */

@@ -3,16 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "postcss": "^6.0.13",
+    "postcss-cssnext": "^3.0.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
+    "npm-run-all": "^4.1.1",
+    "postcss-cli": "^4.1.1",
     "react-scripts": "1.0.14"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm-run-all -p post-css-watch start-js",
+		"post-css": "postcss src/index.css -o public/compiled.css --use postcss-cssnext",
+    "post-css-watch": "postcss src/index.css -o public/compiled.css --use postcss-cssnext -w",
+    "build-css": "npm run post-css",
+    "watch-css": "npm run build-css --watch --recursive",
+    "start-js": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+		"leave-me-alone": "postcss src/styles/bundle.css -o src/styles/compiled.css --use postcss-cssnext"
   }
 }
